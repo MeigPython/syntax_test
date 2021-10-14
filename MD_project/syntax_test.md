@@ -719,6 +719,7 @@ a + (b * c) / d = 50.0
 round(_, 2)
 
 113.06
+
 #### 3.数学函数
 ##### (1)abs(x)
 	print ("abs(-40) : ", abs(-40))
@@ -882,7 +883,7 @@ uniform(5, 10): 8.839498
 uniform(7, 14): 12.81811
 
 #### 5.三角函数
-#### （1）acos(x)
+#### (1)acos(x)
 
 	import math
 	print ("acos(0.64) : ",  math.acos(0.64))
