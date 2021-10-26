@@ -1,4 +1,4 @@
-### 一．基础语法
+### 一. 基础语法
 #### 1.Python保留字
 
 	>>>import keyword
@@ -96,7 +96,7 @@ python  ['', '/usr']
 
 path: ['', '/usr']
 
-### 二.基本数据类型
+### 二. 基本数据类型
 #### 1.number(数字）
 	a, b, c, d = 20, 5.5, True, 4+3j
 	print(type(a), type(b), type(c), type(d))
@@ -323,7 +323,7 @@ dict_values(['runoob', 'www.runoob.com', 1])
 	int("1001",2)     #将二进制数转换为十进制数      结果：9
 	int("0xa",16)     #将十六机制数转换为十进制数     结果：10
 	int("17",8)       #将八进制数转换为十进制数       结果：15
-##### (2)float（x）
+##### (2)float(x)
 	float(10)            结果：10.0
 	float('123')         结果：123.0
 ##### (3)complex([real[,imag]])
@@ -368,7 +368,7 @@ dict_values(['runoob', 'www.runoob.com', 1])
 list1 :  [123, 'Google', 'Runoob', 'Taobao']
 
 list2 :  ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
-##### (9)Set（s）
+##### (9)Set(s)
 	x = set('runoob')
 	y = set('google')
 	x, y
@@ -386,7 +386,7 @@ list2 :  ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 	x - y
 结果：{'r', 'b', 'u', 'n'}
 
-##### (10)dict（d）
+##### (10)dict(d)
 
 	dict(a='a', b='b', t='t')
 结果：{'a': 'a', 't': 't', 'b': 'b'}
@@ -398,7 +398,7 @@ list2 :  ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 	a
 
 结果：frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
-#####（11）chr(x)
+#####（11)chr(x)
 
 	print(chr(0x30), chr(0x31), chr(0x61))
 结果：0 1 a
@@ -417,7 +417,7 @@ list2 :  ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 	oct(10)
 结果：'0o12'
 
-### 三．运算符
+### 三. 运算符
 
 #### 1.算数运算符
 	#!/usr/bin/python3
@@ -697,7 +697,7 @@ Both a and b are false, or one of the variables is false
 
 a + (b * c) / d = 50.0
 
-### 四．数字（Number）
+### 四. 数字（Number）
 #### 1.数据类型转换
 	a=1.0
 	int(a)
@@ -871,7 +871,8 @@ int 10: 0.2382998
 	random.shuffle(list)
 	print ("Random list2:",  list)
 
-#### 
+#### (6)uniform() 函数
+
 	import random
 	print ("uniform(5, 10):",  random.uniform(5, 10))
 	print ("uniform(7, 14):",  random.uniform(7, 14))
@@ -1439,7 +1440,7 @@ str.upper() :  THIS IS STRING EXAMPLE FROM RUNOOB....WOW!!!
 
 
 
-### 六.列表     
+### 六. 列表     
 
 #### 1.访问列表中的值
 	list = ['red', 'green', 'blue', 'yellow', 'white', 'black']
@@ -1503,7 +1504,7 @@ new list: ['Google', 'Runoob', 2000]
 结果：[['a', 'b', 'c'], [1, 2, 3]]
 #### 7.列表函数&方法
 
-##### (1）len(list)
+##### (1)len(list)
 	list1 = ['Google', 'Runoob', 'Taobao']
 	print (len(list1))
 	list2=list(range(5))
@@ -1624,7 +1625,7 @@ new list:  []
 	print ("list2 : ", list2)
 结果：list2 :  ['Google', 'Runoob', 'Taobao', 'Baidu']
 
-### 七.元组
+### 七. 元组
 
 #### 1.访问元组
 	tup1 = ('Google', 'Runoob', 1997, 2000)
@@ -1720,8 +1721,7 @@ tup2[1:5]:  (2, 3, 4, 5)
 	print(list1.index('Taobao'))
 结果：1
 
-##### (6)
-### 八.字典
+### 八. 字典
 #### 1.访问字典中的值
 	dict = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
 	print ("dict['Name']: ", dict['Name'])
@@ -1869,7 +1869,7 @@ Age  in
 {'alexa': 10000, 'url': 'www.runoob.com'}
 
 
-### 九.集合
+### 九. 集合
 
 #### 1.添加元素
 	thisset = set(("Google", "Runoob", "Taobao"))
@@ -1909,7 +1909,7 @@ Age  in
 	thisset = set(("Google", "Runoob", "Taobao"))
 	"Runoob" in thisset
 结果：True
-#### 集合内置方法完整列表
+#### 6.集合内置方法完整列表
 ##### (1)add()
 	fruits = {"apple", "banana", "cherry"}
 	fruits.add("orange") 
